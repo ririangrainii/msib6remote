@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- head ini berfungsi untuk meletakkan content dari luar -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Pertama</title>
+
+    <!-- <style>
+        /*Ini adalah contoh selector tag dan internal css*/
+        p{
+            color: bisque;
+            text-align: justify;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12pt;
+        }
+    </style> -->
+    <!-- ini merupakan contoh pemanggilan css eksternal -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+<!-- semua tampilan yang ada di web adanya di body -->
+<body bgcolor="brown">
+
+
+    <!-- h1 merupakan tag -->
+    <!-- align dan bgcolor ini merupakan salah satu attribute -->
+    <h1 align="center">
+        <!-- marquee merupakan font atau tulisan yang bergerak otomatis -->
+        <marquee behavior="" direction="right" scrolldelay="100">
+        <!-- dibawah ini merupakan element -->
+        Welcome To My Homepage
+    </marquee>
+    </h1>
+    <p align="right" id="atas"><a href="#bawah">Kebawah</a></p>
+        <!-- audio dan embed untuk menampikan musik  -->
+        <audio controls src="./sound/ringtone.mp3"></audio>
+        <embed src="./sound/ringtone.mp3" type="" >
+        <!-- <img src="https://img.a.transfermarkt.technology/portrait/big/8198-1694609670.jpg?lm=1" width="7%"
+        align="left" hspace="20"> -->
+
+        <!-- kenapa ada ./ ini adalah struktur folder karna riri.jpg berada didalam folder img -->
+        <img src="./img/riri.jpg" alt="" width="10%" align="left" hspace="20">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iure maxime, ratione labore, magnam commodi mollitia ipsum optio architecto dolorum quos quidem officiis ducimus! Culpa blanditiis id incidunt totam vel?
+    </p>
+        
+    <p style="text-align: center; color: black;"> <!--Berikut ini adalah contos CSS Inline-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius sed magni. Repellendus dicta, eos non sequi necessitatibus accusantium vero, sapiente commodi quo esse praesentium aut tempora distinctio tenetur vitae.
+    </p>
+    <p id="paragraph">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo a, suscipit officiis possimus assumenda reprehenderit quos ad corporis perferendis nesciunt adipisci vel maxime eius nemo natus magnam blanditiis perspiciatis.
+    </p>
+
+    <fieldset>
+        <!-- fielset merupakan bingkai -->
+        <legend>
+            <font size="5" color="green" face="calibri">
+                Tentang Saya
+            </font>
+        </legend>
+    <ol type="A">
+        <li>Pendidikan</li>
+        <!-- ul ini merupakan list didalam list atau another list -->
+        <ul type="square">
+            <li>SDN</li>
+            <li>SMP</li>
+            <li>SMA</li>
+            <li>Kuliah</li>
+        </ul>
+       
+        <li>Hobby</li>
+        <ul type="disc">
+            <li>Olahraga</li>
+            <li>Menulis</li>
+            <li>Membaca</li>
+        </ul>
+        <!-- target blank gunanya untuk membuka tab baru -->
+        <a href="latihan2.html" target="_blank">
+            <li>Menu Favorit</li>
+        </a>
+        <ul>
+            <li>Makanan</li>
+            <li>Minuman</li>
+        </ul>
+    </ol>
+</fieldset>
+<p align="right" id="bawah"><a href="#atas">Atas</a></p>
+</body>
+</html>

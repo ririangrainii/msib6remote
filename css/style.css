@@ -1,0 +1,69 @@
+ /*Ini adalah contoh selector tag dan eksternal css*/
+        p{
+            color: brown;
+            text-align: justify;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12pt;
+        }
+   body{
+    background-color: beige;
+    background-image:url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   /* ini contoh css yang di grouping dengan koma */
+   fieldset, legend{
+    border-width: 1px;
+    border-color: rgb(158, 47, 76);
+    border-radius: 30px;
+   }
+   legend{
+    padding: 10px;
+    background-color: beige;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+   }
+   table{
+    border: 10px;
+    margin:auto;
+   }
+
+   td, th{
+    padding: 5px;
+    border: 1px solid brown;
+   }
+   /* hover(melayang) gunanya jika mouse digerakkan ke table dia ada warna */
+   tr:hover{
+    background-color: burlywood;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+   }
+   /* contoh selector id deklarasinya menggunakan# dan ini dapat masuk kesemua tag */
+   #paragraph {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    color: cadetblue;
+   }
+
+   /* ini merupakan id yang dikhususkan untuk tag <li>
+   li#paragraph{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    color: cadetblue;
+   } */
+
+ul, li, a.item:link, a.item:visited, a.item:active{
+    text-decoration: none; /*menghilangkan garis pada link*/
+    list-style: none;  /*menghilangkan titik pada list*/
+    display: block;  /* mendisplay a sebagai block*/
+    float: left; /* memposisikan a untuk kebagian kiri*/
+    padding: 2px 3px; /* memberikan jarak dan membentuk pesehi*/
+    background-color: #fff; /*mewarnai block*/
+   }
